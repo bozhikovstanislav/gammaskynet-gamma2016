@@ -1,5 +1,5 @@
 gamma-sky.net: Portal to the Gamma-Ray Sky
-=======================================
+==========================================
 
 Authors: Arjun Voruganti, Christoph Deil, Axel Donath, Johannes King
 
