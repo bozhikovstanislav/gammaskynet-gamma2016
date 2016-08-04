@@ -1,0 +1,135 @@
+%merlin.mbs aipnum4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (-1) disabled
+%Control: page (0) single
+%Control: year  (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{4}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\$12\catcode `\&12\catcode
+  `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {{Donath}}\ \emph {et~al.}(2015)\citenamefont
+  {{Donath}}, \citenamefont {{Deil}}, \citenamefont {{Arribas}}, \citenamefont
+  {{King}}, \citenamefont {{Owen}}, \citenamefont {{Terrier}}, \citenamefont
+  {{Reichardt}}, \citenamefont {{Harris}}, \citenamefont {{B{\"u}hler}},\ and\
+  \citenamefont {{Klepser}}}]{2015arXiv150907408D}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Donath}}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {{Deil}}},
+  \bibinfo {author} {\bibfnamefont {M.~P.}\ \bibnamefont {{Arribas}}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {{King}}}, \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {{Owen}}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {{Terrier}}}, \bibinfo {author} {\bibfnamefont
+  {I.}~\bibnamefont {{Reichardt}}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {{Harris}}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {{B{\"u}hler}}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {{Klepser}}},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {ArXiv e-prints}\ September} (\bibinfo {year} {2015})},\
+  \Eprint {http://arxiv.org/abs/1509.07408} {arXiv:1509.07408 [astro-ph.IM]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Kn{\"o}dlseder}}\ \emph {et~al.}(2016)\citenamefont
+  {{Kn{\"o}dlseder}}, \citenamefont {{Mayer}}, \citenamefont {{Deil}},
+  \citenamefont {{Cayrou}}, \citenamefont {{Owen}}, \citenamefont
+  {{Kelley-Hoskins}}, \citenamefont {{Lu}}, \citenamefont {{Buehler}},
+  \citenamefont {{Forest}}, \citenamefont {{Louge}}, \citenamefont
+  {{Siejkowski}}, \citenamefont {{Kosack}}, \citenamefont {{Gerard}},
+  \citenamefont {{Schulz}}, \citenamefont {{Martin}}, \citenamefont
+  {{Sanchez}}, \citenamefont {{Ohm}}, \citenamefont {{Hassan}},\ and\
+  \citenamefont {{Brau-Nogu{\'e}}}}]{2016arXiv160600393K}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {{Kn{\"o}dlseder}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {{Mayer}}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {{Deil}}},
+  \bibinfo {author} {\bibfnamefont {J.-B.}\ \bibnamefont {{Cayrou}}}, \bibinfo
+  {author} {\bibfnamefont {E.}~\bibnamefont {{Owen}}}, \bibinfo {author}
+  {\bibfnamefont {N.}~\bibnamefont {{Kelley-Hoskins}}}, \bibinfo {author}
+  {\bibfnamefont {C.-C.}\ \bibnamefont {{Lu}}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {{Buehler}}}, \bibinfo {author}
+  {\bibfnamefont {F.}~\bibnamefont {{Forest}}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {{Louge}}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {{Siejkowski}}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {{Kosack}}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {{Gerard}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Schulz}}}, \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {{Martin}}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {{Sanchez}}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {{Ohm}}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {{Hassan}}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {{Brau-Nogu{\'e}}}},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {ArXiv e-prints}\ June} (\bibinfo {year} {2016})},\
+  \Eprint {http://arxiv.org/abs/1606.00393} {arXiv:1606.00393 [astro-ph.IM]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Wakely}}\ and\ \citenamefont
+  {{Horan}}(2008)}]{tevcat}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~P.}\ \bibnamefont
+  {{Wakely}}}\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {{Horan}}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {International Cosmic Ray Conference}\ }\textbf {\bibinfo {volume} {3}},\
+  \unskip\ \bibinfo {pages} {1341--1344} (\bibinfo {year} {2008})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{Fernique}}\ \emph {et~al.}(2015)\citenamefont
+  {{Fernique}}, \citenamefont {{Allen}}, \citenamefont {{Boch}}, \citenamefont
+  {{Oberto}}, \citenamefont {{Pineau}}, \citenamefont {{Durand}}, \citenamefont
+  {{Bot}}, \citenamefont {{Cambr{\'e}sy}}, \citenamefont {{Derriere}},
+  \citenamefont {{Genova}},\ and\ \citenamefont
+  {{Bonnarel}}}]{2015AnA...578A.114F}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {{Fernique}}}, \bibinfo {author} {\bibfnamefont {M.~G.}\ \bibnamefont
+  {{Allen}}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {{Boch}}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {{Oberto}}}, \bibinfo
+  {author} {\bibfnamefont {F.-X.}\ \bibnamefont {{Pineau}}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {{Durand}}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {{Bot}}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {{Cambr{\'e}sy}}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {{Derriere}}}, \bibinfo {author} {\bibfnamefont
+  {F.}~\bibnamefont {{Genova}}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {F.}~\bibnamefont {{Bonnarel}}},\ }\href {\doibase
+  10.1051/0004-6361/201526075} {\bibfield  {journal} {\bibinfo  {journal}
+  {AAP}\ }\textbf {\bibinfo {volume} {578}},\ p.\ \bibinfo {pages} {A114}June
+  (\bibinfo {year} {2015})},\ \Eprint {http://arxiv.org/abs/1505.02291}
+  {arXiv:1505.02291 [astro-ph.IM]} \BibitemShut {NoStop}%
+\end{thebibliography}%
