@@ -101,15 +101,6 @@
   {\bibinfo  {journal} {ArXiv e-prints}\ June} (\bibinfo {year} {2016})},\
   \Eprint {http://arxiv.org/abs/1606.00393} {arXiv:1606.00393 [astro-ph.IM]}
   \BibitemShut {NoStop}%
-\bibitem [{\citenamefont {{Wakely}}\ and\ \citenamefont
-  {{Horan}}(2008)}]{tevcat}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~P.}\ \bibnamefont
-  {{Wakely}}}\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
-  {{Horan}}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {International Cosmic Ray Conference}\ }\textbf {\bibinfo {volume} {3}},\
-  \unskip\ \bibinfo {pages} {1341--1344} (\bibinfo {year} {2008})}\BibitemShut
-  {NoStop}%
 \bibitem [{\citenamefont {{Fernique}}\ \emph {et~al.}(2015)\citenamefont
   {{Fernique}}, \citenamefont {{Allen}}, \citenamefont {{Boch}}, \citenamefont
   {{Oberto}}, \citenamefont {{Pineau}}, \citenamefont {{Durand}}, \citenamefont
@@ -132,4 +123,13 @@
   {AAP}\ }\textbf {\bibinfo {volume} {578}},\ p.\ \bibinfo {pages} {A114}June
   (\bibinfo {year} {2015})},\ \Eprint {http://arxiv.org/abs/1505.02291}
   {arXiv:1505.02291 [astro-ph.IM]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Wakely}}\ and\ \citenamefont
+  {{Horan}}(2008)}]{tevcat}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~P.}\ \bibnamefont
+  {{Wakely}}}\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {{Horan}}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {International Cosmic Ray Conference}\ }\textbf {\bibinfo {volume} {3}},\
+  \unskip\ \bibinfo {pages} {1341--1344} (\bibinfo {year} {2008})}\BibitemShut
+  {NoStop}%
 \end{thebibliography}%
