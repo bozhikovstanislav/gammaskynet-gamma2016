@@ -1,21 +1,24 @@
 % Table
 \begin{table}[tb]
 
-\caption{Catalog information.}
+\caption{
+Source catalogs currently displayed on \gammasky .
+We plan to add other catalogs of interest to gamma-ray astronomers in the future,
+e.g. the upcoming H.E.S.S. and HAWC TeV source catalogs, or the ATNF pulsar catalog.
+}
 \label{tab:catalogs}
 \tabcolsep7pt\begin{tabular}{ lrll }
 \hline
-% \tch{1}{c}{b}{Catalog\\ name} & \tch{1}{c}{b}{Number\\ of sources}  & \tch{1}{c}{b}{Update}  & \tch{1}{c|}{b}{Description}  \\
-% & \tch{1}{c}{b}{Single\\ outlet}  & \tch{1}{c}{b}{Small\\ multiple\tabnoteref{t1n1}}  & \tch{1}{c}{b}{Large\\ multiple}  & \tch{1}{c}{b}{Total}   \\
-
-
-Catalog & Sources & Period & Description \\ \hline
-gamma-cat & 153 & continuous & Open TeV gamma-ray source catalog\\
-2FHL & 360 & 2 years & Second Fermi-LAT catalog of high-energy sources\\
-3FGL & 3034 & 4 years & Third Fermi-LAT point source catalog\\
-SNRcat & 378 & continuous & A census of high-energy observations of Galactic supernova remnants\\
+Catalog   & Sources & Updates    & Description \\
+\hline
+gamma-cat &     153 & continuous & Open TeV gamma-ray source catalog  \\
+&&& \gammacat  \\
+2FHL      &     360 & fixed      & Second Fermi-LAT catalog of high-energy sources \citep{2fhl}\\
+&&& \url{http://fermi.gsfc.nasa.gov/ssc/data/access/lat/2FHL/}  \\
+3FGL      &    3034 & fixed      & Third Fermi-LAT point source catalog \citep{3fgl}\\
+&&& \url{http://fermi.gsfc.nasa.gov/ssc/data/access/lat/4yr_catalog/}  \\
+SNRcat    &     378 & continuous & A census of high-energy observations of Galactic supernova remnants \citep{snrcat}\\
+&&& \url{http://www.physics.umanitoba.ca/snr/SNRcat/} \\
 \hline
 \end{tabular}
-% \tablenote[t1n1]{This is an example of first tablenote entry. This is an example of first tablenote entry.}
-% \tablenote[t1n2]{This is an example of second tablenote entry.}
 \end{table}
