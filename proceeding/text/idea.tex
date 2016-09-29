@@ -1,27 +1,26 @@
 \section{Idea}
 
-gamma-sky.net is a one-stop resource for browsing images and catalogs but also for closely examining a specific gamma-ray source. Although it was mainly built for the greater astronomical community, the webpage additionally targets the general public through a user-friendly interface and a clean information layout, all of which are compiled under cutting-edge web tools.
+\gammasky is a one-stop resource for browsing images and catalogs but also for closely examining a specific gamma-ray source. Although it was mainly built for the greater astronomical community, the webpage additionally targets the general public through a user-friendly interface and a clean information layout, all of which are compiled under cutting-edge web tools.
 
-\begin{figure}[t]
+\begin{figure}[tb]
 \centerline{\includegraphics[width=\textwidth]{figures/mapview_wide}}
-\caption{Map view of \texttt{gamma-sky.net} showing the GeV gamma-ray sky observed by the Fermi-LAT space telescope in the energy bands 0.3--1 GeV (R band), 1--3 GeV (G band) and 3--300 GeV (B band). The popup for one TeV source is shows, as well as the widgets to control the image and overlays, and to switch to the catalog view.}
+\caption{Map View of \gammasky showing the gamma-ray sky observed by the space-based Fermi-LAT, broken into three bands: 0.3-1 GeV (red-band), 1-3 GeV (green-band), and 3-300 GeV (blue-band). The pop-up for one TeV source is displayed, as well as the toolbar on the side containing widgets for controlling the map overlays.}
 \label{fig:mapview}
 \end{figure}
 
-\begin{figure}[t]
+\begin{figure}[tb]
 \centerline{\includegraphics[width=\textwidth]{figures/catview_wide_zoom}}
-\caption{Catalog view of \gammasky showing the catalog and source selection field at the top, and the source detail view for one source from the Fermi-LAT 3FGL source catalog.}
+\caption{Catalog View of \gammasky showing the catalog and source selection fields at the top, and the detailed view for one source from the Fermi-LAT 3FGL catalog.}
 \label{fig:catview}
 \end{figure}
 
-Individuals who access the website via any modern internet browser will be welcomed with the Map View page. This page presents an overlay of multi-wavelength survey images, most of which are all-sky images, wrapped around a three-dimensional sphere. The map features pan-and-zoom functionality for easily navigating and quickly browsing the sky. Gamma-ray sources from our catalog data have been pinpointed onto the sphere, as shown in Figure~\ref{fig:mapview}. The Map View page also utilizes a powerful search tool to either pan the view to a given sky position or locate a source by name. This functionality allows the user to easily find their sources and study their visual context in relation to other objects. gamma-sky.net additionally embodies a Catalog View, which incorporates more detailed information for each of the sources in our catalogs. Professional astronomers will navigate to this component of the website for the deep investigation of a particular source. See the Catalog View page in Figure~\ref{fig:catview}.
-
-Table~\ref{tab:catalogs} lists the catalogs available on \gammasky, Table~\ref{tab:images} some of the available images.
+Individuals who access \url{http://gamma-sky.net} via any modern internet browser will be welcomed with the Map View homepage. This page displays overlays of multi-wavelength survey images, most of which are all-sky, wrapped around a three-dimensional sphere. Gamma-ray sources from our catalog data have then been pinpointed onto the sphere, as shown in Figure~\ref{fig:mapview}. The map features pan-and-zoom functionality for easily navigating and quickly browsing the sky. The Map View page also utilizes a powerful search tool to either pan the view to a given sky position or locate a source by name. This functionality is intended to work similar to Google Maps\footnote[1]{https://www.google.com/maps}, and allows the user to easily find sources of interest and study their visual context. See Table~\ref{tab:images} for our selection of images on the website and Table~\ref{tab:catalogs} for the catalogs we display. \gammasky additionally embodies a Catalog View, which incorporates more detailed information for each of the sources in our catalogs. Professional astronomers will navigate to this component of the website for the deep investigation of a particular source. The Catalog View page is shown in Figure~\ref{fig:catview}.
 
 \input{tables/image_table}
 
 \input{tables/catalog_table}
 
+\gammasky aims to be a resource for examining a source or region; however, any tools for extended analysis will not be incorporated into the website. Instead for such continued investigation, we point users to Gammapy \cite{gammapy}, a Python package for gamma-ray astronomy, which can used to run scripts locally. These scripts will generate the detailed plots and publication-worthy results that astronomers are interested in. Alternatively, users may navigate to TeVCat \cite{tevcat} for investigating TeV sources, or the ASI Science Data Center (ASDC) website for their online tools (e.g. ASDC Data Explorer\footnote[2]{http://www.asdc.asi.it/tutorial/DataExplorer/DataExplorerTutorial.html}, SED Builder\footnote[3]{http://www.asdc.asi.it/tutorial/SEDBuilder/SEDBuilderTutorial.html}) and their TeGeV Catalogue for TeV sources \cite{tgevcat}.
 
 
-It is imperative for all of our data on the online portal to be openly available for download and local analysis by any user. Additionally, gamma-sky.net is an entirely open-source project and other developers are welcome to contribute to the code. We advise those interested in contributing to visit our GitHub repository at \url{https://github.com/gammapy/gamma-sky}.
+It is imperative for all of our data on the online portal to be openly available for download and local analysis by any user. Additionally, the website is an entirely open-source project, and other developers are welcome to contribute to the code. We advise those interested in contributing to visit our GitHub repository at \url{https://github.com/gammapy/gamma-sky}.
