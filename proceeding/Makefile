@@ -16,13 +16,11 @@ make clean:
 	- rm -f $(TARGET).pdf $(TARGET).aux $(TARGET).log $(TARGET).bbl $(TARGET).fff
 	- rm -f *.aux */*.aux */*/*.aux
 
-
-
 tarball:
 	- tar -cvzf $(TARGET).tar.gz \
-	gammaskynet-gamma2016.tex \
-	gammaskynet-gamma2016.bib \
-	gammaskynet-gamma2016.bbl \
+	$(TARGET).tex \
+	$(TARGET).bib \
+	$(TARGET).bbl \
 	text/*.tex \
 	figures/mapview_retake.PNG \
 	figures/catview_retake.PNG \
