@@ -22,6 +22,7 @@ tarball:
 	$(TARGET).bib \
 	$(TARGET).bbl \
 	text/*.tex \
+	tables/*.tex \
 	figures/mapview_retake.PNG \
 	figures/catview_retake.PNG \
 	figures/four_images.png \
