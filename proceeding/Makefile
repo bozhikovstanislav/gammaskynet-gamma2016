@@ -13,7 +13,7 @@ $(TARGET).pdf: *.tex figures/* text/* tables/* $(TARGET).bib
 	$(LATEX) $<
 
 make clean:
-	- rm -f $(TARGET).pdf $(TARGET).aux $(TARGET).log $(TARGET).bbl $(TARGET).fff
+	- rm -f $(TARGET).pdf $(TARGET).aux $(TARGET).log $(TARGET).bbl $(TARGET).fff $(TARGET).tar.gz
 	- rm -f *.aux */*.aux */*/*.aux
 
 tarball:
